@@ -3,6 +3,6 @@ import { compose } from 'recompose';
 import {graphql} from 'react-apollo'
 import { styles } from './styles';
 
-import {directorsQuery} from "./queries"
+import {directorQuery} from "./queries"
 
-export default compose(withStyles(styles), graphql(directorsQuery));
+export default compose(withStyles(styles), graphql(directorQuery));
